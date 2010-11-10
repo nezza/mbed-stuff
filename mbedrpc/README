@@ -1,0 +1,16 @@
+mbedrpc.py
+
+Thomas 'nezza-_-' Roth, code@stacksmashing.net, http://stacksmashing.net/
+
+This is an improved version of the RPC module available here:
+http://mbed.org/cookbook/Interfacing-with-Python
+
+This version tries to remove the repeating stuff and adds some functionality:
+- pins[] is a list containing all pins on the mbed:
+  Use pins[0] to access LED 1 and pins[4] to access pin 5
+
+- Be a little more don't-repeat-yourself:
+  The code uses subclassing to remove some repeating stuff
+
+- Make the code more clean:
+  Instead of defining each pin by hand, generate them by two loops.

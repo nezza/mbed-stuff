@@ -1,0 +1,10 @@
+mbed-stuff
+
+(c) Thomas 'nezza-_-' Roth, code@stacksmashing.net
+
+My collection of stuff for the mbed prototyping board:
+
+mbedrpc:
+A Python module for using RPC via HTTP & Serial. It's a fixed and improved
+version of the on provided by mbed.org here:
+http://mbed.org/cookbook/Interfacing-with-Python
