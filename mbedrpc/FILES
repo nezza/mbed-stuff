@@ -1,0 +1,10 @@
+mbedrpc.py:
+    The module itself. If you want to use the module, you only need this file.
+
+sample.py:
+    A sample script that uses mbedrpc to create a knight-rider like effect on
+    the four LEDs on the mbed.
+
+sample.c:
+    The program for the mbed that is needed to get sample.py working. Just paste
+    into the IDE, hit the Compile button, save it to your mbed and go for it.
